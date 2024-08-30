@@ -29,6 +29,7 @@ const Landing = () => {
           </button>
         </div>
       </div>
+      <a href="/home">DEV BUTTON</a>
     </Screen>
   );
 };
