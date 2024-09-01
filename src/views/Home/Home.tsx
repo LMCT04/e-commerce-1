@@ -14,10 +14,9 @@ const Home = () => {
         </div>
         <hr />
         <div className={styles["off_content"]}>
-          <p>ofertas ...</p>
+          <p>offers ...</p>
         </div>
       </div>
-      <div>Hola estoy en Home</div>
     </Screen>
   );
 };
