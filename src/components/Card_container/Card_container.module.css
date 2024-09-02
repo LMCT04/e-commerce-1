@@ -1,0 +1,8 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  row-gap: 0.1rem;
+  column-gap: 0.5rem;
+  justify-items: center;
+}

@@ -33,7 +33,7 @@ const HeaderSmart = () => {
           Home
         </NavLink>
         <NavLink
-          to="/"
+          to="/store"
           className={({ isActive }) =>
             isActive ? styles["link_active"] : styles["link"]
           }

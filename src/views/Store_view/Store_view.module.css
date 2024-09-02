@@ -1,0 +1,7 @@
+.card_container {
+  background-color: red;
+  width: 90%;
+  height: 80dvh;
+  margin: 1.5rem 0;
+  display: flex;
+}
