@@ -1,8 +1,14 @@
+.grid {
+  background-color: rgb(91, 91, 91);
+  width: 100%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: repeat(6, auto-fit);
+  row-gap: 0.2rem;
+}
+
 .container {
   width: 100%;
   height: 100%;
-  display: grid;
-  row-gap: 0.1rem;
-  column-gap: 0.5rem;
-  justify-items: center;
 }

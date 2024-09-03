@@ -1,0 +1,17 @@
+.container {
+  height: fit-content;
+  background-color: red;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: gainsboro;
+  color: black;
+}
+
+button:disabled {
+  background-color: red;
+}
