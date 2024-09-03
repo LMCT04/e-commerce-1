@@ -12,15 +12,29 @@
   height: 20dvh;
   border: 1px solid rgb(76, 73, 73);
   margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .off_title {
   color: rgb(76, 73, 73);
   text-align: center;
+  height: 22%;
 }
 
 .off_content {
   width: 100%;
-  margin: 2.5rem 0;
-  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 67%;
+}
+
+.off_card {
+  height: 90%;
+  width: fit-content;
+  border: 1px solid rgb(76, 73, 73);
+  padding: 0 0.5rem;
+  margin: 0 0.5rem;
 }
