@@ -4,6 +4,8 @@ import { useEffect } from "react";
 type propPaginated = {
   show: number;
   page: number;
+  data: number;
+  paginate: (page: number) => void;
 };
 
 const Paginated = ({ data, show, paginate, page }: propPaginated) => {
@@ -28,7 +30,7 @@ const Paginated = ({ data, show, paginate, page }: propPaginated) => {
         <>
           <button
             disabled={page === 1 ? true : false}
-            onClick={page > 1 ? () => paginate(page - 1) : null}
+            onClick={page > 1 ? () => paginate(page - 1) : undefined}
           >
             PREV
           </button>
@@ -44,7 +46,7 @@ const Paginated = ({ data, show, paginate, page }: propPaginated) => {
             ))}
           <button
             disabled={page === total ? true : false}
-            onClick={page < total ? () => paginate(page + 1) : null}
+            onClick={page < total ? () => paginate(page + 1) : undefined}
           >
             NEXT
           </button>
