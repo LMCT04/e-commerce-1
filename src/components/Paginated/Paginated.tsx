@@ -1,7 +1,10 @@
 import styles from "./Paginated.module.css";
 import { useEffect } from "react";
 
-type propPaginated = {};
+type propPaginated = {
+  show: number;
+  page: number;
+};
 
 const Paginated = ({ data, show, paginate, page }: propPaginated) => {
   useEffect(() => {

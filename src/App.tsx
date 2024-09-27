@@ -2,7 +2,7 @@ import "./App.css";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import { Landing, Home, Store_View } from "./views";
+import { Landing, Home, Store_View, Detail } from "./views";
 
 function App() {
   const location = useLocation();
@@ -16,6 +16,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/home" element={<Home />} />
         <Route path="/store" element={<Store_View />} />
+        <Route path="/store/:id" element={<Detail />} />
       </Routes>
       <Footer />
     </div>

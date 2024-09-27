@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
 import styles from "./Card.module.css";
 
 type CardProps = {
   data: {
+    id: number;
     name: string;
     price: number;
   };
@@ -10,8 +12,10 @@ type CardProps = {
 const Card = ({ data }: CardProps) => {
   return (
     <div className={styles.card}>
-      <h2>{data.name}</h2>
-      <p>{data.price}</p>
+      <Link to={`/store/${data.id}`}>
+        <h2>{data.name}</h2>
+        <p>{data.price}</p>
+      </Link>
     </div>
   );
 };
