@@ -6,7 +6,7 @@ const Detail = () => {
   const { id } = useParams();
   return (
     <Screen>
-      <h2>DETAIL {id}</h2>
+      <h2 className={style.h2}>DETAIL {id}</h2>
       <div></div>
     </Screen>
   );
