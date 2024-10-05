@@ -11,8 +11,8 @@ const Header = ({ children }: HeaderTypes) => {
 
 const HeaderDumb = () => {
   return (
-    <div>
-      <h2>Header Dumb Web</h2>
+    <div className={styles["header_dumb"]}>
+      <h2 className={styles["hd-h2"]}>Furniture Store</h2>
     </div>
   );
 };
@@ -21,7 +21,7 @@ const HeaderSmart = () => {
   return (
     <div className={styles["header_smart"]}>
       <div className={styles["hs-container"]}>
-        <h2>Header Smart Web</h2>
+        <h2 className={styles["hs-h2"]}>Furniture Store</h2>
       </div>
       <div className={styles["link_container"]}>
         <NavLink

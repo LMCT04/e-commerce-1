@@ -8,6 +8,17 @@
   margin: 0 auto;
   width: 100dvw;
   min-height: 100dvh;
+  --50-white: #f1f4fd;
+  --100-whiteBlue: #dee5fb;
+  --200-whiteBlue: #c5d3f8;
+  --300-skyBlue: #9db6f3;
+  --400-skyBlue: #6f90eb;
+  --500-skyBlue: #506de4;
+  --600-blue: #384dd8;
+  --700-blue: #2f3bc6;
+  --800-darkBlue: #2c33a1;
+  --900-darkBlue: #292f7f;
+  --950-darkBlue: #1d1f4e;
 }
 
 h1 {

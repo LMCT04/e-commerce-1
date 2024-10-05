@@ -21,8 +21,6 @@ const Paginated = ({ data, show, paginate, page }: propPaginated) => {
   for (let i = 1; i <= total; i++) {
     pageNum.push(i);
   }
-  console.log("paginas", total);
-  console.log("numero de pagina", pageNum);
 
   return (
     <div className={styles.container}>
