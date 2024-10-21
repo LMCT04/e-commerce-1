@@ -18,11 +18,13 @@
 .boxOption {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 45%;
+  justify-content: space-between;
+  width: 35%;
 }
 .buttonOption {
-  margin-left: 1rem;
+  background-color: var(--50-white);
+  color: var(--700-blue);
+  border-radius: 0.2rem;
 }
 
 @media only screen and (min-width: 768px) {
