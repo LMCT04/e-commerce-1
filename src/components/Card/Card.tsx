@@ -11,12 +11,13 @@ type CardProps = {
 
 const Card = ({ data }: CardProps) => {
   return (
-    <div className={styles.card}>
-      <Link to={`/store/${data.id}`}>
+    <Link to={`/store/${data.id}`}>
+      <div className={styles.card}>
+        <div className={styles["container-img"]}>IMAGE</div>
         <h2>{data.name}</h2>
         <p>{data.price}</p>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 };
 
